@@ -72,6 +72,8 @@ btn_file1 = Button(text="Plot", command=Function1)
 btn_file1.place(relx=.6, rely=.1, anchor="c")
 
 
+
+#Функция создания модели
 def Function_Model():
     model = Sequential()
     model.add(BatchNormalization())
